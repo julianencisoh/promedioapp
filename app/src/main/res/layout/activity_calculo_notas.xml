@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fondo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculoNotas">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="244dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="60dp"
+        android:text="Cálculo de nota"
+        android:textAlignment="center"
+        android:textColor="#838383"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/notacinco"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/botonblanco"
+        android:ems="10"
+        android:hint="Parcial 2"
+        android:inputType="textPersonName"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/notauno"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="136dp"
+        android:background="@drawable/botonblanco"
+        android:ems="10"
+        android:hint="Proyecto Parcial 1"
+        android:inputType="textPersonName"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/notados"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="228dp"
+        android:background="@drawable/botonblanco"
+        android:ems="10"
+        android:hint="Proyecto Parcial 2"
+        android:inputType="textPersonName"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/notacuatro"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="408dp"
+        android:background="@drawable/botonblanco"
+        android:ems="10"
+        android:hint="Parcial 1"
+        android:inputType="textPersonName"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/notatres"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="316dp"
+        android:background="@drawable/botonblanco"
+        android:ems="10"
+        android:hint="Quices"
+        android:inputType="textPersonName"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botoncalcular"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="616dp"
+        android:background="@drawable/botonblanco"
+        android:text="Calcular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

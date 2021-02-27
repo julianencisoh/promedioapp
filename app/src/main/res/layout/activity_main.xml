@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fondo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/botonconfig"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/botonfondo"
+        android:text="Config"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="244dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="200dp"
+        android:text="Escribe tu nombre para continuar"
+        android:textAlignment="center"
+        android:textColor="#838383"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/casillanombre"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="292dp"
+        android:background="@drawable/botonblanco"
+        android:ems="10"
+        android:hint="Ingresa tu Nombre"
+        android:inputType="textPersonName"
+        android:padding="20dp"
+        android:textColor="#838383"
+        android:textColorHint="#838383"
+        android:textColorLink="#838383"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botoncontinuar"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="392dp"
+        android:background="@drawable/botonblanco"
+        android:text="Continuar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

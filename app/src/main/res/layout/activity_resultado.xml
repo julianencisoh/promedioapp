@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fondo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resultado">
+
+    <Button
+        android:id="@+id/botonotravez"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="572dp"
+        android:background="@drawable/botonblanco"
+        android:text="Calcula otra vez"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textohola"
+        android:layout_width="244dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="240dp"
+        android:text="Hola, Daniel Díaz. Tu nota final es de"
+        android:textAlignment="center"
+        android:textColor="#838383"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/notacalculada"
+        android:layout_width="231dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="308dp"
+        android:text="5,0"
+        android:textAlignment="center"
+        android:textColor="#838383"
+        android:textSize="80sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="244dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="60dp"
+        android:text="Resultado"
+        android:textAlignment="center"
+        android:textColor="#838383"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
